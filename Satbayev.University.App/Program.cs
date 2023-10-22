@@ -37,7 +37,6 @@ namespace Satbayev.University.App
                 {
                     questions.ForEach(ques =>
                     {
-                    // Предполагая, что вы хотите выводить на экран название каждого вопроса в качестве примера
 
                         Console.WriteLine(ques.Title);
                     });
