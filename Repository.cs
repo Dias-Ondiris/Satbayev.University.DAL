@@ -28,7 +28,12 @@ namespace Satbayev.University.DAL
             {
                 return false;
             }
+            finally
+            {
+                Console.WriteLine("Добавление в базу завершено");
+            }
             return true;
+
         }
         public bool UpdateQuestion(QuestionTemplate question)
         {
@@ -43,6 +48,10 @@ namespace Satbayev.University.DAL
             catch (Exception)
             {
                 return false;
+            }
+            finally
+            {
+                Console.WriteLine("Изменение в базе завершено");
             }
             return true;
         }
@@ -59,6 +68,10 @@ namespace Satbayev.University.DAL
             catch (Exception)
             {
                 return false;
+            }
+            finally
+            {
+                Console.WriteLine("Удаление в базе завершено");
             }
             return true;
         }

@@ -22,6 +22,7 @@ namespace Satbayev.University.LIB
             {
                 return "error";
             }
+            
         }
         public List<QuestionTemplate> GetAllQuestion()
         {
